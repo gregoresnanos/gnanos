@@ -233,7 +233,7 @@ namespace MyDice.Board
                 PlayerState_MovingComplete(player);
             }
         }
-        private void PlayerState_MovingComplete(Player player)
+        public void PlayerState_MovingComplete(Player player)
         {
             ElementNode node;
             if ((node = elementNodesManager.getNode(player.currentPositionIndex)) == null) return;
@@ -675,7 +675,7 @@ namespace MyDice.Board
             if (playerSkipping(playerHomeIndex)) { nextPlayer(); }
             else
             {
-                InvokeEvents(onNextPlayerEvents);
+                //InvokeEvents(onNextPlayerEvents);
             }
         }
         private void initPlayers()
@@ -1097,7 +1097,7 @@ namespace MyDice.Board
         }
         #endregion
         #region events
-        private void InvokeEvents(UnityEvent[] events)
+        public void InvokeEvents(UnityEvent[] events)
         {
             if (events == null) return;
             for (int i = 0; i < events.Length; i++)

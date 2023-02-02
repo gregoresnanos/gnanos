@@ -147,6 +147,8 @@ namespace MyDice.Players
             GoTo_Immediately(positions[0]);
             TouchCount_Increase();
             playerState = PlayerState.Moving;
+            ElementNodeCreator ENC = FindObjectOfType<ElementNodeCreator>();
+            ENC.InvokeEvents(ENC.onNextPlayerEvents);
         }
         public void GoTo_Immediately(Vector3 position)
         {
@@ -188,7 +190,7 @@ namespace MyDice.Players
                     var r = this.transform.rotation;
                     r.x = r.z = 0f;
                     this.transform.rotation = r;
-                    playerState = PlayerState.MovingComplete;
+                    //playerState = PlayerState.MovingComplete;
                 }
                 return;
             }

@@ -12,7 +12,8 @@ public class gameController : MonoBehaviour
     
     public void CheckNodesType(ElementNode node)
     {
-
+        ElementNodeCreator ENC = FindObjectOfType<ElementNodeCreator>();
+        ENC.allowRolling = false;
 
         GameObject CPlayer = currentPlayerF();
         Player player = CPlayer.GetComponent<Player>();
@@ -41,36 +42,36 @@ public class gameController : MonoBehaviour
                 }
                 else
                 {
-                    UpdateUI(node.PropertyName, node.PropertyPrice.ToString(), node.PayingPrice.ToString(), node.Owned, Canvas);
+                    UpdateUI(node.PropertyName, node.PropertyPrice.ToString(), node.PayingPrice.ToString(), node.Owned, Canvas); //Edw apla peirazw to ui gia na vgazei to swsto kathe fora
                 }
             }
             else if (node.NodeType == 2)
             {
-                //call order func
+                //call order func|||   Edw thelei apla na ginei ena func pou na exei ena switch case gia kathe karta entolis kai antisoixa na exei i kathe karta (kathe case ) to analogo apotelesma
             }
             else if (node.NodeType == 3)
             {
-                //call decision func
+                //call decision func\\\ Edw to idio me panw
             }
             else if (node.NodeType == 4)
             {
-                //call fine func
+                //call fine func///   edw na diavazei to PropertyPrice toy ElementNode script kai na mionei to wallet tou currentPlayer oso einai to price
             }
             else if (node.NodeType == 5)
             {
-                //call bonus func
+                //call bonus func  ///      Edw to idio me panw apla na auksanei
             }
             else if (node.NodeType == 6)
             {
-                //call insurance func
+                //call insurance func    /// auto gia pio meta einai pio periploko
             }
             else if (node.NodeType == 7)
             {
-                //call bill func
+                //call bill func /// auto episis pio meta
             }
             else if (node.NodeType == 8)
             {
-                //call start func
+                //call start func///  edw apla na dinei ta lefta tis afetirias alla kai na metraei girous diladi na kanei +1 kapoion metriti panw ston paikti kai na elenxei oti an einai megalitero toy 2 na stamataei to game.
             }
     }
     public bool CheckOwnership(GameObject player, GameObject OwnerPlayer)
@@ -152,6 +153,19 @@ public class gameController : MonoBehaviour
     {
         currentNode cnode = FindObjectOfType<currentNode>();
         cnode.cNode = node;
+    }
+    public void endTurn(Canvas canvas)
+    {
+        if (!(canvas == null))
+        {
+            canvas.enabled = false;
+            GameObject cplayer = currentPlayerF();
+            Player player = cplayer.GetComponent<Player>();
+
+            ElementNodeCreator ElNoCr = FindObjectOfType<ElementNodeCreator>();
+            ElNoCr.PlayerState_MovingComplete(player);
+            ElNoCr.allowRolling = true;
+        }
     }
 
 }
