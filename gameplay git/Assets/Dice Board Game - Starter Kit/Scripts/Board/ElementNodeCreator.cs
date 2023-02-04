@@ -5,6 +5,7 @@ using MyDice.Players;
 using UnityEngine.Events;
 using MyDice.Board.DataStructure;
 
+
 namespace MyDice.Board
 {
     public class ElementNodeCreator : MonoBehaviour
@@ -54,7 +55,8 @@ namespace MyDice.Board
         #endregion
         //[Header("Settings")]
         public KeyCode rollingKeyCode = KeyCode.Space;
-        public Canvas canvas;
+        public GameObject currentPlayer;
+        public Player player;
         //[Header("Editor settings")]
         public GameObject defaultPrefab;
         public float handlePointRadius = .1f;
@@ -92,8 +94,8 @@ namespace MyDice.Board
         }
         private void Start()
         {
-            canvas = FindObjectOfType<Canvas>();
-            canvas.enabled = false;
+            currentPlayer = GameObject.Find("CurrentPlayer");
+
             if (autoDetection_Board)
             {
                 diceManager = FindObjectOfType<DiceManager>();
@@ -942,7 +944,7 @@ namespace MyDice.Board
             switch (playerHomes[playerHomeIndex].playerMode)
             {
                 case PlayerMode.Human:
-                    if (Input.GetKeyDown(rollingKeyCode))
+                    if (Input.GetKeyDown(rollingKeyCode))//edw einai
                     {
                         diceManager.setFlag(true);
                         allowRolling = false;

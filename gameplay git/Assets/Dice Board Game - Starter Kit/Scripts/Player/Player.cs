@@ -11,6 +11,7 @@ namespace MyDice.Players
     {
         #region variable
         #region public
+        public bool TurnEnded;
         public List<int> Properties = new List<int>();
         public bool isPrisoned;
         public int Wallet;
@@ -20,6 +21,7 @@ namespace MyDice.Players
         public GameObject gostPrefab;
         public PlayerMovementType playerMovementType = PlayerMovementType.Direct;
         public GameObject canvas;
+        public int RoundCounter;
         #region Events
         public UnityEvent onIdleModeEnter;
         public UnityEvent onMovingModeEnter;
@@ -82,6 +84,8 @@ namespace MyDice.Players
         }
         void Start()
         {
+            TurnEnded = true;
+            RoundCounter = 0;
             Wallet = 2000;
             isPrisoned = false;
             if (deltaTime == 0)
@@ -147,8 +151,8 @@ namespace MyDice.Players
             GoTo_Immediately(positions[0]);
             TouchCount_Increase();
             playerState = PlayerState.Moving;
-            ElementNodeCreator ENC = FindObjectOfType<ElementNodeCreator>();
-            ENC.InvokeEvents(ENC.onNextPlayerEvents);
+            //ElementNodeCreator ENC = FindObjectOfType<ElementNodeCreator>();
+            //ENC.InvokeEvents(ENC.onNextPlayerEvents);
         }
         public void GoTo_Immediately(Vector3 position)
         {
@@ -190,7 +194,7 @@ namespace MyDice.Players
                     var r = this.transform.rotation;
                     r.x = r.z = 0f;
                     this.transform.rotation = r;
-                    //playerState = PlayerState.MovingComplete;
+                    playerState = PlayerState.MovingComplete;
                 }
                 return;
             }

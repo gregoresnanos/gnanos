@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.17276844, g: 0.21589245, b: 0.2978263, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,219 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &9059149
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 9059150}
-  - component: {fileID: 9059152}
-  - component: {fileID: 9059151}
-  m_Layer: 5
-  m_Name: PropertyCard
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &9059150
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9059149}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1695813924}
-  - {fileID: 2130320805}
-  m_Father: {fileID: 1909534501}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 350, y: 500}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &9059151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9059149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &9059152
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9059149}
-  m_CullTransparentMesh: 1
---- !u!1 &51185942
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 51185943}
-  - component: {fileID: 51185945}
-  - component: {fileID: 51185944}
-  m_Layer: 5
-  m_Name: Title
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &51185943
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 51185942}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1695813924}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 320, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &51185944
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 51185942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: Property Title
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 1
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &51185945
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 51185942}
-  m_CullTransparentMesh: 1
 --- !u!1 &93533988
 GameObject:
   m_ObjectHideFlags: 0
@@ -375,10 +162,34 @@ MonoBehaviour:
   NodeType: 3
   index: 38
   prefab: {fileID: 0}
-  point: {x: -1.9087867, y: -0.000000023841837, z: -1.7832642}
+  point: {x: -1.8266097, y: -0.000000023841837, z: -1.7197256}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 93533989}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 93533989}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657372431025
   redirectIndex: -1
@@ -439,10 +250,34 @@ MonoBehaviour:
   NodeType: 1
   index: 13
   prefab: {fileID: 0}
-  point: {x: 1.6912135, y: -0.000000023841837, z: -1.4232641}
+  point: {x: 1.7328533, y: -0.000000023841837, z: -1.3767203}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 101694228}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 101694228}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657312169157
   redirectIndex: -1
@@ -503,10 +338,34 @@ MonoBehaviour:
   NodeType: 0
   index: 20
   prefab: {fileID: 0}
-  point: {x: 1.6912135, y: -0.000000023841837, z: 1.096736}
+  point: {x: 1.7148334, y: -0.000000023841837, z: 1.1399117}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 106878231}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 106878231}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657327297994
   redirectIndex: -1
@@ -635,10 +494,34 @@ MonoBehaviour:
   NodeType: 5
   index: 2
   prefab: {fileID: 0}
-  point: {x: -1.1887866, y: -0.000000023841837, z: -2.5032642}
+  point: {x: -1.0583123, y: -0.000000023841837, z: -2.5042841}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 169976406}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 169976406}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657281679904
   redirectIndex: -1
@@ -698,11 +581,35 @@ MonoBehaviour:
   PersonalPrice: 0
   NodeType: 1
   index: 1
-  prefab: {fileID: 1529124614}
-  point: {x: -1.5487866, y: -0.000000023841837, z: -2.5032642}
+  prefab: {fileID: 0}
+  point: {x: -1.3992708, y: -0.000000023841837, z: -2.5032883}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 172343233}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 172343233}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657275917239
   redirectIndex: -1
@@ -720,280 +627,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1529124618}
+  m_Children: []
   m_Father: {fileID: 1392486556}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &181501728
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 181501729}
-  - component: {fileID: 181501731}
-  - component: {fileID: 181501730}
-  m_Layer: 5
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &181501729
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 181501728}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1921118589}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &181501730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 181501728}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: BUY
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
-  m_fontStyle: 1
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 0
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &181501731
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 181501728}
-  m_CullTransparentMesh: 1
---- !u!1 &188789753
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 188789754}
-  - component: {fileID: 188789757}
-  - component: {fileID: 188789756}
-  - component: {fileID: 188789755}
-  m_Layer: 5
-  m_Name: NoBuyButton
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &188789754
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 188789753}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 549746832}
-  m_Father: {fileID: 1904406436}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 180, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &188789755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 188789753}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 188789756}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1107969187}
-        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
-        m_MethodName: endTurn
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1909534500}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Canvas, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &188789756
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 188789753}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.3160377, b: 0.3160377, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &188789757
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 188789753}
-  m_CullTransparentMesh: 1
 --- !u!1 &200101135
 GameObject:
   m_ObjectHideFlags: 0
@@ -1070,10 +707,34 @@ MonoBehaviour:
   NodeType: 0
   index: 3
   prefab: {fileID: 0}
-  point: {x: -0.8287866, y: -0.000000023841837, z: -2.5032642}
+  point: {x: -0.7306034, y: -0.000000023841837, z: -2.509586}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 216121444}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 216121444}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657287193144
   redirectIndex: -1
@@ -1172,7 +833,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f8b9f9c6c29dd0749914a003d5a57215, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1210,13 +871,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 222618617}
   m_LocalRotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.66}
+  m_LocalPosition: {x: 0, y: -0.01, z: -0.66}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 400306324}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &237942928
 GameObject:
@@ -1356,15 +1017,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 237942928}
-  m_LocalRotation: {x: -0.6052886, y: -0, z: -0, w: -0.7960061}
+  m_LocalRotation: {x: -0.013062985, y: -0.24035244, z: -0.8613883, w: -0.44729224}
   m_LocalPosition: {x: 0, y: 1.923, z: -0.628}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1787304331}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: -285.501, y: 0, z: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: -383.728, y: 15.038, z: 121.941}
 --- !u!1 &342008468
 GameObject:
   m_ObjectHideFlags: 0
@@ -1561,10 +1222,34 @@ MonoBehaviour:
   NodeType: 2
   index: 4
   prefab: {fileID: 0}
-  point: {x: -0.4687866, y: -0.000000023841837, z: -2.5032642}
+  point: {x: -0.42219928, y: -0.000000023841837, z: -2.5046847}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 495583296}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 495583296}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657291113241
   redirectIndex: -1
@@ -1586,6 +1271,131 @@ Transform:
   m_Father: {fileID: 1392486556}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &498008564
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 346255486061718368, guid: 2f3ed5c5ba0e90d48908481b3d096811, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6627a12cc21ebdf4db63182a379cbc29, type: 2}
+    - target: {fileID: 346255486061718375, guid: 2f3ed5c5ba0e90d48908481b3d096811, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.041
+      objectReference: {fileID: 0}
+    - target: {fileID: 346255486061718375, guid: 2f3ed5c5ba0e90d48908481b3d096811, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 346255486061718375, guid: 2f3ed5c5ba0e90d48908481b3d096811, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 346255486061718375, guid: 2f3ed5c5ba0e90d48908481b3d096811, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 346255486061718375, guid: 2f3ed5c5ba0e90d48908481b3d096811, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 346255486061718375, guid: 2f3ed5c5ba0e90d48908481b3d096811, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 346255486183654473, guid: 2f3ed5c5ba0e90d48908481b3d096811, type: 3}
+      propertyPath: m_Name
+      value: GameMode1
+      objectReference: {fileID: 0}
+    - target: {fileID: 346255486183654474, guid: 2f3ed5c5ba0e90d48908481b3d096811, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 346255486183654474, guid: 2f3ed5c5ba0e90d48908481b3d096811, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4288479
+      objectReference: {fileID: 0}
+    - target: {fileID: 346255486183654474, guid: 2f3ed5c5ba0e90d48908481b3d096811, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.4288479
+      objectReference: {fileID: 0}
+    - target: {fileID: 346255486183654474, guid: 2f3ed5c5ba0e90d48908481b3d096811, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.4288479
+      objectReference: {fileID: 0}
+    - target: {fileID: 346255486183654474, guid: 2f3ed5c5ba0e90d48908481b3d096811, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 346255486183654474, guid: 2f3ed5c5ba0e90d48908481b3d096811, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 346255486183654474, guid: 2f3ed5c5ba0e90d48908481b3d096811, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 346255486183654474, guid: 2f3ed5c5ba0e90d48908481b3d096811, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 346255486183654474, guid: 2f3ed5c5ba0e90d48908481b3d096811, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 346255486183654474, guid: 2f3ed5c5ba0e90d48908481b3d096811, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 346255486183654474, guid: 2f3ed5c5ba0e90d48908481b3d096811, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 346255486183654474, guid: 2f3ed5c5ba0e90d48908481b3d096811, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 346255486183654474, guid: 2f3ed5c5ba0e90d48908481b3d096811, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 346255486183654474, guid: 2f3ed5c5ba0e90d48908481b3d096811, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 346255486959369569, guid: 2f3ed5c5ba0e90d48908481b3d096811, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 346255486959369569, guid: 2f3ed5c5ba0e90d48908481b3d096811, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 346255486959369569, guid: 2f3ed5c5ba0e90d48908481b3d096811, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 346255486959369569, guid: 2f3ed5c5ba0e90d48908481b3d096811, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 346255486959369569, guid: 2f3ed5c5ba0e90d48908481b3d096811, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 346255487354652675, guid: 2f3ed5c5ba0e90d48908481b3d096811, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5074344297995477583, guid: 2f3ed5c5ba0e90d48908481b3d096811, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2f3ed5c5ba0e90d48908481b3d096811, type: 3}
 --- !u!1 &536991977
 GameObject:
   m_ObjectHideFlags: 0
@@ -1654,7 +1464,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 536991977}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &549746831
+--- !u!1 &555049791
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1662,133 +1472,42 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 549746832}
-  - component: {fileID: 549746834}
-  - component: {fileID: 549746833}
-  m_Layer: 5
-  m_Name: Text (TMP)
+  - component: {fileID: 555049793}
+  - component: {fileID: 555049792}
+  m_Layer: 0
+  m_Name: OrderCardsManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &549746832
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 549746831}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 188789754}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &549746833
+--- !u!114 &555049792
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 549746831}
+  m_GameObject: {fileID: 555049791}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Script: {fileID: 11500000, guid: d3957b309cbb9f44d98734029d8c23b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: END TURN
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
-  m_fontStyle: 1
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 0
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &549746834
-CanvasRenderer:
+--- !u!4 &555049793
+Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 549746831}
-  m_CullTransparentMesh: 1
+  m_GameObject: {fileID: 555049791}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.40388176, y: -14.680239, z: 5.1767936}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &574848317
 GameObject:
   m_ObjectHideFlags: 0
@@ -1828,7 +1547,7 @@ MonoBehaviour:
   NodeType: 6
   index: 35
   prefab: {fileID: 0}
-  point: {x: -1.9087867, y: -0.000000023841837, z: -0.7032641}
+  point: {x: -1.8418207, y: -0.000000023841837, z: -0.6837683}
   onPlayerStayEvent:
     m_PersistentCalls:
       m_Calls:
@@ -1984,10 +1703,34 @@ MonoBehaviour:
   NodeType: 1
   index: 14
   prefab: {fileID: 0}
-  point: {x: 1.6912135, y: -0.000000023841837, z: -1.0632641}
+  point: {x: 1.7309309, y: -0.000000023841837, z: -1.0470238}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 629157538}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 629157538}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657314004510
   redirectIndex: -1
@@ -2048,10 +1791,34 @@ MonoBehaviour:
   NodeType: 6
   index: 15
   prefab: {fileID: 0}
-  point: {x: 1.6912135, y: -0.000000023841837, z: -0.7032641}
+  point: {x: 1.7289131, y: -0.000000023841837, z: -0.7121438}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 642022935}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 642022935}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657316091647
   redirectIndex: -1
@@ -2073,6 +1840,24 @@ Transform:
   m_Father: {fileID: 1392486556}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &672387217 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 346255486061718374, guid: 2f3ed5c5ba0e90d48908481b3d096811, type: 3}
+  m_PrefabInstance: {fileID: 498008564}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &672387222
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672387217}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 2.220446e-16, z: 10}
+  m_Center: {x: 0.0000006556511, y: 0, z: -0.00000023841858}
 --- !u!1 &687949247
 GameObject:
   m_ObjectHideFlags: 0
@@ -2112,10 +1897,34 @@ MonoBehaviour:
   NodeType: 1
   index: 17
   prefab: {fileID: 0}
-  point: {x: 1.6912135, y: -0.000000023841837, z: 0.016735792}
+  point: {x: 1.7247092, y: -0.000000023841837, z: -0.014477998}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 687949248}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 687949248}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657320268148
   redirectIndex: -1
@@ -2221,10 +2030,34 @@ MonoBehaviour:
   NodeType: 6
   index: 5
   prefab: {fileID: 0}
-  point: {x: -0.10878658, y: -0.000000023841837, z: -2.5032642}
+  point: {x: -0.060518198, y: -0.000000023841837, z: -2.5063896}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 702881850}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 702881850}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657293761750
   redirectIndex: -1
@@ -2285,10 +2118,34 @@ MonoBehaviour:
   NodeType: 1
   index: 37
   prefab: {fileID: 0}
-  point: {x: -1.9087867, y: -0.000000023841837, z: -1.423264}
+  point: {x: -1.83279, y: -0.000000023841837, z: -1.3745643}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 705164405}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 705164405}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657369851166
   redirectIndex: -1
@@ -2349,10 +2206,34 @@ MonoBehaviour:
   NodeType: 2
   index: 33
   prefab: {fileID: 0}
-  point: {x: -1.9087867, y: -0.000000023841837, z: 0.016735911}
+  point: {x: -1.8462706, y: -0.000000023841837, z: -0.006333828}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 725918649}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 725918649}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657360421350
   redirectIndex: -1
@@ -2413,10 +2294,34 @@ MonoBehaviour:
   NodeType: 1
   index: 19
   prefab: {fileID: 0}
-  point: {x: 1.6912135, y: -0.000000023841837, z: 0.73673606}
+  point: {x: 1.7173201, y: -0.000000023841837, z: 0.6863812}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 728406737}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 728406737}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657324825674
   redirectIndex: -1
@@ -2438,82 +2343,6 @@ Transform:
   m_Father: {fileID: 1392486556}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &775098821
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 775098822}
-  - component: {fileID: 775098824}
-  - component: {fileID: 775098823}
-  m_Layer: 5
-  m_Name: Blur
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &775098822
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 775098821}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1909534501}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &775098823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 775098821}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.6745098}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &775098824
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 775098821}
-  m_CullTransparentMesh: 1
 --- !u!1 &812591033
 GameObject:
   m_ObjectHideFlags: 0
@@ -2582,103 +2411,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 812591033}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &827178699
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 827178703}
-  - component: {fileID: 827178702}
-  - component: {fileID: 827178701}
-  - component: {fileID: 827178700}
-  m_Layer: 0
-  m_Name: Cubic_Home_5(Clone)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!65 &827178700
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 827178699}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.29999998, y: 0.02, z: 0.29999998}
-  m_Center: {x: 0, y: 0.01, z: 0}
---- !u!23 &827178701
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 827178699}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: f8b9f9c6c29dd0749914a003d5a57215, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &827178702
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 827178699}
-  m_Mesh: {fileID: 4300000, guid: d21871d748a094345aa6b40da0ec2c78, type: 3}
---- !u!4 &827178703
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 827178699}
-  m_LocalRotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.9087867, y: 0.24999997, z: -2.5032642}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1199820113}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &870157322
 GameObject:
   m_ObjectHideFlags: 0
@@ -2786,10 +2518,34 @@ MonoBehaviour:
   NodeType: 1
   index: 7
   prefab: {fileID: 0}
-  point: {x: 0.6112133, y: -0.000000023841837, z: -2.5032642}
+  point: {x: 0.6306312, y: -0.000000023841837, z: -2.5102425}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 892639701}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 892639701}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657298803377
   redirectIndex: -1
@@ -2918,10 +2674,34 @@ MonoBehaviour:
   NodeType: 1
   index: 9
   prefab: {fileID: 0}
-  point: {x: 1.3312136, y: -0.000000023841837, z: -2.5032642}
+  point: {x: 1.3025928, y: -0.000000023841837, z: -2.5027845}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1002227015}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1002227015}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657303362719
   redirectIndex: -1
@@ -3036,7 +2816,7 @@ MonoBehaviour:
   NodeType: 1
   index: 34
   prefab: {fileID: 0}
-  point: {x: -1.9087867, y: -0.000000023841837, z: -0.3432641}
+  point: {x: -1.8450772, y: -0.000000023841837, z: -0.33616456}
   onPlayerStayEvent:
     m_PersistentCalls:
       m_Calls:
@@ -3124,10 +2904,34 @@ MonoBehaviour:
   NodeType: 4
   index: 36
   prefab: {fileID: 0}
-  point: {x: -1.9087867, y: -0.000000023841837, z: -1.0632641}
+  point: {x: -1.8351506, y: -0.000000023841837, z: -1.0179236}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1059591482}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1059591482}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657367207543
   redirectIndex: -1
@@ -3188,10 +2992,34 @@ MonoBehaviour:
   NodeType: 1
   index: 24
   prefab: {fileID: 0}
-  point: {x: 0.25121343, y: -0.000000023841837, z: 1.096736}
+  point: {x: 0.2841215, y: -0.000000023841837, z: 1.1313877}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1060978387}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1060978387}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657336349292
   redirectIndex: -1
@@ -3252,17 +3080,29 @@ MonoBehaviour:
   NodeType: 0
   index: 10
   prefab: {fileID: 0}
-  point: {x: 1.6912135, y: -0.000000023841837, z: -2.5032642}
+  point: {x: 1.7350202, y: -0.000000023841837, z: -2.4915826}
   onPlayerStayEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1401472596}
-        m_TargetAssemblyTypeName: MyDice.Players.Player, Assembly-CSharp
-        m_MethodName: SetPrisoned
-        m_Mode: 1
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1083189605}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1083189605}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3289,51 +3129,17 @@ Transform:
   m_Father: {fileID: 1392486556}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1107969186
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1107969188}
-  - component: {fileID: 1107969187}
-  m_Layer: 0
-  m_Name: GameController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1107969187
+--- !u!114 &1107969187 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 4210729796116990923, guid: 6c713fe9fb6cb9c43961abd3bf9be43b, type: 3}
+  m_PrefabInstance: {fileID: 4210729797157818216}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1107969186}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ce4c865a912028f419e4db5528ddcaf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentPlayer: {fileID: 0}
---- !u!4 &1107969188
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1107969186}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.5276904, y: -12.372276, z: -0.9070821}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1113054951
 GameObject:
   m_ObjectHideFlags: 0
@@ -3385,7 +3191,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 60.1
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -3410,14 +3216,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1113054951}
-  m_LocalRotation: {x: 0.5608306, y: -0, z: -0, w: 0.8279306}
-  m_LocalPosition: {x: 0, y: 3.531, z: -2.491}
+  m_LocalRotation: {x: 0.5208819, y: -0, z: -0, w: 0.8536288}
+  m_LocalPosition: {x: 0, y: 2.708, z: -2.743}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 68.227, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 62.783, y: 0, z: 0}
 --- !u!1 &1172569860
 GameObject:
   m_ObjectHideFlags: 0
@@ -3446,7 +3252,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -3505,12 +3311,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1172569860}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0.445, y: 3.379, z: -0.778}
+  m_LocalPosition: {x: 1.532, y: 5.971, z: -2.662}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1199820111
 GameObject:
@@ -3550,8 +3356,8 @@ MonoBehaviour:
   PersonalPrice: -1
   NodeType: 8
   index: 0
-  prefab: {fileID: 827178699}
-  point: {x: -1.9087867, y: -0.000000023841837, z: -2.5032642}
+  prefab: {fileID: 0}
+  point: {x: -1.8344923, y: -0.000000023841837, z: -2.4962468}
   onPlayerStayEvent:
     m_PersistentCalls:
       m_Calls:
@@ -3560,8 +3366,20 @@ MonoBehaviour:
         m_MethodName: CheckNodesType
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1199820111}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_ObjectArgument: {fileID: 1199820112}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1199820112}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3584,8 +3402,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 827178703}
+  m_Children: []
   m_Father: {fileID: 1392486556}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3741,10 +3558,34 @@ MonoBehaviour:
   NodeType: 1
   index: 21
   prefab: {fileID: 0}
-  point: {x: 1.3312135, y: -0.000000023841837, z: 1.096736}
+  point: {x: 1.312624, y: -0.000000023841837, z: 1.1307862}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1355000435}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1355000435}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657329710191
   redirectIndex: -1
@@ -3866,6 +3707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86407c4f2f0e8e34b8990530bbfb27d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TurnEnded: 0
   Properties: 
   isPrisoned: 0
   Wallet: 0
@@ -3874,6 +3716,7 @@ MonoBehaviour:
   gostPrefab: {fileID: 0}
   playerMovementType: 0
   canvas: {fileID: 0}
+  RoundCounter: 0
   onIdleModeEnter:
     m_PersistentCalls:
       m_Calls: []
@@ -4005,10 +3848,34 @@ MonoBehaviour:
   NodeType: 3
   index: 23
   prefab: {fileID: 0}
-  point: {x: 0.61121345, y: -0.000000023841837, z: 1.096736}
+  point: {x: 0.6242217, y: -0.000000023841837, z: 1.1269264}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1366269644}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1366269644}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657334097235
   redirectIndex: -1
@@ -4060,46 +3927,46 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points:
-  - {x: -1.9087867, y: -0.000000023841837, z: -2.5032642}
-  - {x: -1.5487866, y: -0.000000023841837, z: -2.5032642}
-  - {x: -1.1887866, y: -0.000000023841837, z: -2.5032642}
-  - {x: -0.8287866, y: -0.000000023841837, z: -2.5032642}
-  - {x: -0.4687866, y: -0.000000023841837, z: -2.5032642}
-  - {x: -0.10878658, y: -0.000000023841837, z: -2.5032642}
-  - {x: 0.25121343, y: -0.000000023841837, z: -2.5032642}
-  - {x: 0.6112133, y: -0.000000023841837, z: -2.5032642}
-  - {x: 0.97121346, y: -0.000000023841837, z: -2.5032642}
-  - {x: 1.3312136, y: -0.000000023841837, z: -2.5032642}
-  - {x: 1.6912135, y: -0.000000023841837, z: -2.5032642}
-  - {x: 1.6912135, y: -0.000000023841837, z: -2.1432643}
-  - {x: 1.6912135, y: -0.000000023841837, z: -1.7832642}
-  - {x: 1.6912135, y: -0.000000023841837, z: -1.4232641}
-  - {x: 1.6912135, y: -0.000000023841837, z: -1.0632641}
-  - {x: 1.6912135, y: -0.000000023841837, z: -0.7032641}
-  - {x: 1.6912135, y: -0.000000023841837, z: -0.3432641}
-  - {x: 1.6912135, y: -0.000000023841837, z: 0.016735792}
-  - {x: 1.6912135, y: -0.000000023841837, z: 0.37673593}
-  - {x: 1.6912135, y: -0.000000023841837, z: 0.73673606}
-  - {x: 1.6912135, y: -0.000000023841837, z: 1.096736}
-  - {x: 1.3312135, y: -0.000000023841837, z: 1.096736}
-  - {x: 0.97121346, y: -0.000000023841837, z: 1.096736}
-  - {x: 0.61121345, y: -0.000000023841837, z: 1.096736}
-  - {x: 0.25121343, y: -0.000000023841837, z: 1.096736}
-  - {x: -0.10878658, y: -0.000000023841837, z: 1.096736}
-  - {x: -0.4687866, y: -0.000000023841837, z: 1.096736}
-  - {x: -0.8287865, y: -0.000000023841837, z: 1.096736}
-  - {x: -1.1887866, y: -0.000000023841837, z: 1.096736}
-  - {x: -1.5487868, y: -0.000000023841837, z: 1.096736}
-  - {x: -1.9087867, y: -0.000000023841837, z: 1.096736}
-  - {x: -1.9087867, y: -0.000000023841837, z: 0.73673594}
-  - {x: -1.9087867, y: -0.000000023841837, z: 0.37673593}
-  - {x: -1.9087867, y: -0.000000023841837, z: 0.016735911}
-  - {x: -1.9087867, y: -0.000000023841837, z: -0.3432641}
-  - {x: -1.9087867, y: -0.000000023841837, z: -0.7032641}
-  - {x: -1.9087867, y: -0.000000023841837, z: -1.0632641}
-  - {x: -1.9087867, y: -0.000000023841837, z: -1.423264}
-  - {x: -1.9087867, y: -0.000000023841837, z: -1.7832642}
-  - {x: -1.9087867, y: -0.000000023841837, z: -2.1432643}
+  - {x: -1.8344923, y: -0.000000023841837, z: -2.4962468}
+  - {x: -1.3992708, y: -0.000000023841837, z: -2.5032883}
+  - {x: -1.0583123, y: -0.000000023841837, z: -2.5042841}
+  - {x: -0.7306034, y: -0.000000023841837, z: -2.509586}
+  - {x: -0.42219928, y: -0.000000023841837, z: -2.5046847}
+  - {x: -0.060518198, y: -0.000000023841837, z: -2.5063896}
+  - {x: 0.27867246, y: -0.000000023841837, z: -2.5123065}
+  - {x: 0.6306312, y: -0.000000023841837, z: -2.5102425}
+  - {x: 0.9715001, y: -0.000000023841837, z: -2.5083566}
+  - {x: 1.3025928, y: -0.000000023841837, z: -2.5027845}
+  - {x: 1.7350202, y: -0.000000023841837, z: -2.4915826}
+  - {x: 1.7305404, y: -0.000000023841837, z: -2.04411}
+  - {x: 1.7285583, y: -0.000000023841837, z: -1.7151735}
+  - {x: 1.7328533, y: -0.000000023841837, z: -1.3767203}
+  - {x: 1.7309309, y: -0.000000023841837, z: -1.0470238}
+  - {x: 1.7289131, y: -0.000000023841837, z: -0.7121438}
+  - {x: 1.7268205, y: -0.000000023841837, z: -0.36486107}
+  - {x: 1.7247092, y: -0.000000023841837, z: -0.014477998}
+  - {x: 1.7226726, y: -0.000000023841837, z: 0.323502}
+  - {x: 1.7173201, y: -0.000000023841837, z: 0.6863812}
+  - {x: 1.7148334, y: -0.000000023841837, z: 1.1399117}
+  - {x: 1.312624, y: -0.000000023841837, z: 1.1307862}
+  - {x: 0.97269565, y: -0.000000023841837, z: 1.130985}
+  - {x: 0.6242217, y: -0.000000023841837, z: 1.1269264}
+  - {x: 0.2841215, y: -0.000000023841837, z: 1.1313877}
+  - {x: -0.060133014, y: -0.000000023841837, z: 1.1358489}
+  - {x: -0.38689107, y: -0.000000023841837, z: 1.13604}
+  - {x: -0.73154294, y: -0.000000023841837, z: 1.1277194}
+  - {x: -1.0706525, y: -0.000000023841837, z: 1.127528}
+  - {x: -1.3980079, y: -0.000000023841837, z: 1.1231053}
+  - {x: -1.8528681, y: -0.000000023841837, z: 1.1117154}
+  - {x: -1.8577135, y: -0.000000023841837, z: 0.6930617}
+  - {x: -1.8475287, y: -0.000000023841837, z: 0.34132493}
+  - {x: -1.8462706, y: -0.000000023841837, z: -0.006333828}
+  - {x: -1.8450772, y: -0.000000023841837, z: -0.33616456}
+  - {x: -1.8418207, y: -0.000000023841837, z: -0.6837683}
+  - {x: -1.8351506, y: -0.000000023841837, z: -1.0179236}
+  - {x: -1.83279, y: -0.000000023841837, z: -1.3745643}
+  - {x: -1.8266097, y: -0.000000023841837, z: -1.7197256}
+  - {x: -1.8310895, y: -0.000000023841837, z: -2.0586095}
   nodes:
   - {fileID: 1199820111}
   - {fileID: 172343232}
@@ -4223,7 +4090,8 @@ MonoBehaviour:
     radius: 0
     center: {x: 0, y: 0, z: 0}
   rollingKeyCode: 32
-  canvas: {fileID: 0}
+  currentPlayer: {fileID: 0}
+  player: {fileID: 0}
   defaultPrefab: {fileID: 0}
   handlePointRadius: 0.1
   handleArrowSize: 0.2
@@ -4293,7 +4161,7 @@ Transform:
   - {fileID: 1401472600}
   - {fileID: 1361240950}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1401472595
 GameObject:
@@ -4327,6 +4195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86407c4f2f0e8e34b8990530bbfb27d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TurnEnded: 0
   Properties: 
   isPrisoned: 0
   Wallet: 0
@@ -4334,7 +4203,8 @@ MonoBehaviour:
   targetDistanceHit: 0.05
   gostPrefab: {fileID: 0}
   playerMovementType: 0
-  canvas: {fileID: 1909534497}
+  canvas: {fileID: 0}
+  RoundCounter: 0
   onIdleModeEnter:
     m_PersistentCalls:
       m_Calls: []
@@ -4466,10 +4336,34 @@ MonoBehaviour:
   NodeType: 1
   index: 32
   prefab: {fileID: 0}
-  point: {x: -1.9087867, y: -0.000000023841837, z: 0.37673593}
+  point: {x: -1.8475287, y: -0.000000023841837, z: 0.34132493}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1413147189}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1413147189}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657358259143
   redirectIndex: -1
@@ -4697,15 +4591,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1448272324}
-  m_LocalRotation: {x: -0.39206594, y: -0, z: -0, w: 0.9199372}
+  m_LocalRotation: {x: -0.113884665, y: -0.41471502, z: -0.43219817, w: 0.79262006}
   m_LocalPosition: {x: -0.39, y: 1.97, z: -0.459}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 200101136}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: -46.166, y: 0, z: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: -32.616, y: -41.578, z: -44.529}
 --- !u!1 &1462182773
 GameObject:
   m_ObjectHideFlags: 0
@@ -4745,10 +4639,34 @@ MonoBehaviour:
   NodeType: 1
   index: 27
   prefab: {fileID: 0}
-  point: {x: -0.8287865, y: -0.000000023841837, z: 1.096736}
+  point: {x: -0.73154294, y: -0.000000023841837, z: 1.1277194}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1462182774}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1462182774}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657342977655
   redirectIndex: -1
@@ -4809,10 +4727,34 @@ MonoBehaviour:
   NodeType: 1
   index: 16
   prefab: {fileID: 0}
-  point: {x: 1.6912135, y: -0.000000023841837, z: -0.3432641}
+  point: {x: 1.7268205, y: -0.000000023841837, z: -0.36486107}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1502069741}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1502069741}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657318094779
   redirectIndex: -1
@@ -4833,103 +4775,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1392486556}
   m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1529124614
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1529124618}
-  - component: {fileID: 1529124617}
-  - component: {fileID: 1529124616}
-  - component: {fileID: 1529124615}
-  m_Layer: 0
-  m_Name: Cubic_Home_5(Clone)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!65 &1529124615
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1529124614}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.29999998, y: 0.02, z: 0.29999998}
-  m_Center: {x: 0, y: 0.01, z: 0}
---- !u!23 &1529124616
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1529124614}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: f8b9f9c6c29dd0749914a003d5a57215, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1529124617
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1529124614}
-  m_Mesh: {fileID: 4300000, guid: d21871d748a094345aa6b40da0ec2c78, type: 3}
---- !u!4 &1529124618
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1529124614}
-  m_LocalRotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.5487866, y: 0.24999997, z: -2.5032642}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 172343234}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1542344986
 GameObject:
@@ -5092,10 +4937,34 @@ MonoBehaviour:
   NodeType: 3
   index: 8
   prefab: {fileID: 0}
-  point: {x: 0.97121346, y: -0.000000023841837, z: -2.5032642}
+  point: {x: 0.9715001, y: -0.000000023841837, z: -2.5083566}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1588416213}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1588416213}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657301367246
   redirectIndex: -1
@@ -5156,10 +5025,34 @@ MonoBehaviour:
   NodeType: 6
   index: 25
   prefab: {fileID: 0}
-  point: {x: -0.10878658, y: -0.000000023841837, z: 1.096736}
+  point: {x: -0.060133014, y: -0.000000023841837, z: 1.1358489}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1617484640}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1617484640}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657338726775
   redirectIndex: -1
@@ -5220,10 +5113,34 @@ MonoBehaviour:
   NodeType: 7
   index: 12
   prefab: {fileID: 0}
-  point: {x: 1.6912135, y: -0.000000023841837, z: -1.7832642}
+  point: {x: 1.7285583, y: -0.000000023841837, z: -1.7151735}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1634767006}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1634767006}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657309763680
   redirectIndex: -1
@@ -5284,10 +5201,34 @@ MonoBehaviour:
   NodeType: 1
   index: 11
   prefab: {fileID: 0}
-  point: {x: 1.6912135, y: -0.000000023841837, z: -2.1432643}
+  point: {x: 1.7305404, y: -0.000000023841837, z: -2.04411}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1682040428}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1682040428}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657307763282
   redirectIndex: -1
@@ -5348,10 +5289,34 @@ MonoBehaviour:
   NodeType: 2
   index: 18
   prefab: {fileID: 0}
-  point: {x: 1.6912135, y: -0.000000023841837, z: 0.37673593}
+  point: {x: 1.7226726, y: -0.000000023841837, z: 0.323502}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1683809149}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1683809149}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657322505063
   redirectIndex: -1
@@ -5373,83 +5338,6 @@ Transform:
   m_Father: {fileID: 1392486556}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1695813923
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1695813924}
-  - component: {fileID: 1695813926}
-  - component: {fileID: 1695813925}
-  m_Layer: 5
-  m_Name: PropertyTitle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1695813924
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1695813923}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 51185943}
-  m_Father: {fileID: 9059150}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 40}
-  m_SizeDelta: {x: 350, y: 75}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1695813925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1695813923}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1695813926
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1695813923}
-  m_CullTransparentMesh: 1
 --- !u!1 &1774136379
 GameObject:
   m_ObjectHideFlags: 0
@@ -5594,10 +5482,34 @@ MonoBehaviour:
   NodeType: 1
   index: 31
   prefab: {fileID: 0}
-  point: {x: -1.9087867, y: -0.000000023841837, z: 0.73673594}
+  point: {x: -1.8577135, y: -0.000000023841837, z: 0.6930617}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1839849244}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1839849244}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657355699071
   redirectIndex: -1
@@ -5619,361 +5531,6 @@ Transform:
   m_Father: {fileID: 1392486556}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1904406435
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1904406436}
-  - component: {fileID: 1904406439}
-  - component: {fileID: 1904406438}
-  - component: {fileID: 1904406437}
-  m_Layer: 5
-  m_Name: ButtonsHolder
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1904406436
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1904406435}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1921118589}
-  - {fileID: 188789754}
-  m_Father: {fileID: 1909534501}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -315, y: 0}
-  m_SizeDelta: {x: 350, y: 500}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1904406437
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1904406435}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Padding:
-    m_Left: 0
-    m_Right: 0
-    m_Top: 0
-    m_Bottom: 0
-  m_ChildAlignment: 4
-  m_Spacing: -100
-  m_ChildForceExpandWidth: 1
-  m_ChildForceExpandHeight: 1
-  m_ChildControlWidth: 0
-  m_ChildControlHeight: 0
-  m_ChildScaleWidth: 0
-  m_ChildScaleHeight: 0
-  m_ReverseArrangement: 0
---- !u!114 &1904406438
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1904406435}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1904406439
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1904406435}
-  m_CullTransparentMesh: 1
---- !u!1 &1909534497
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1909534501}
-  - component: {fileID: 1909534500}
-  - component: {fileID: 1909534499}
-  - component: {fileID: 1909534498}
-  - component: {fileID: 1909534502}
-  m_Layer: 5
-  m_Name: PropertyUI
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1909534498
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1909534497}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &1909534499
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1909534497}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 1
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1920, y: 1080}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
---- !u!223 &1909534500
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1909534497}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 1113054953}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 25
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!224 &1909534501
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1909534497}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 775098822}
-  - {fileID: 9059150}
-  - {fileID: 1904406436}
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
---- !u!114 &1909534502
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1909534497}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b57514684818d546a5a9b9b1e45c513, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &1921118588
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1921118589}
-  - component: {fileID: 1921118592}
-  - component: {fileID: 1921118591}
-  - component: {fileID: 1921118590}
-  m_Layer: 5
-  m_Name: BuyButton
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1921118589
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1921118588}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 181501729}
-  m_Father: {fileID: 1904406436}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 180, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1921118590
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1921118588}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1921118591}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1107969187}
-        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
-        m_MethodName: BuyProp
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1921118591
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1921118588}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.49230072, g: 1, b: 0.4198113, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1921118592
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1921118588}
-  m_CullTransparentMesh: 1
 --- !u!1 &1941817704
 GameObject:
   m_ObjectHideFlags: 0
@@ -6013,17 +5570,29 @@ MonoBehaviour:
   NodeType: 1
   index: 39
   prefab: {fileID: 0}
-  point: {x: -1.9087867, y: -0.000000023841837, z: -2.1432643}
+  point: {x: -1.8310895, y: -0.000000023841837, z: -2.0586095}
   onPlayerStayEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgument: {fileID: 1941817705}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1941817705}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -6089,10 +5658,34 @@ MonoBehaviour:
   NodeType: 7
   index: 28
   prefab: {fileID: 0}
-  point: {x: -1.1887866, y: -0.000000023841837, z: 1.096736}
+  point: {x: -1.0706525, y: -0.000000023841837, z: 1.127528}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1951759332}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1951759332}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657345459907
   redirectIndex: -1
@@ -6153,10 +5746,34 @@ MonoBehaviour:
   NodeType: 1
   index: 6
   prefab: {fileID: 0}
-  point: {x: 0.25121343, y: -0.000000023841837, z: -2.5032642}
+  point: {x: 0.27867246, y: -0.000000023841837, z: -2.5123065}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1957580064}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1957580064}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657296563129
   redirectIndex: -1
@@ -6271,10 +5888,34 @@ MonoBehaviour:
   NodeType: 1
   index: 22
   prefab: {fileID: 0}
-  point: {x: 0.97121346, y: -0.000000023841837, z: 1.096736}
+  point: {x: 0.97269565, y: -0.000000023841837, z: 1.130985}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1985422789}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1985422789}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657331865200
   redirectIndex: -1
@@ -6335,10 +5976,34 @@ MonoBehaviour:
   NodeType: 1
   index: 29
   prefab: {fileID: 0}
-  point: {x: -1.5487868, y: -0.000000023841837, z: 1.096736}
+  point: {x: -1.3980079, y: -0.000000023841837, z: 1.1231053}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2008892523}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2008892523}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657349363277
   redirectIndex: -1
@@ -6467,10 +6132,34 @@ MonoBehaviour:
   NodeType: 0
   index: 30
   prefab: {fileID: 0}
-  point: {x: -1.9087867, y: -0.000000023841837, z: 1.096736}
+  point: {x: -1.8528681, y: -0.000000023841837, z: 1.1117154}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2037019037}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2037019037}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657352963770
   redirectIndex: -1
@@ -6531,10 +6220,34 @@ MonoBehaviour:
   NodeType: 1
   index: 26
   prefab: {fileID: 0}
-  point: {x: -0.4687866, y: -0.000000023841837, z: 1.096736}
+  point: {x: -0.38689107, y: -0.000000023841837, z: 1.13604}
   onPlayerStayEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: CheckNodesType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2112577181}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107969187}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: curNode
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2112577181}
+          m_ObjectArgumentAssemblyTypeName: MyDice.Board.ElementNode, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hostingStatus: 0
   ID: 133194657340838172
   redirectIndex: -1
@@ -6556,215 +6269,60 @@ Transform:
   m_Father: {fileID: 1392486556}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2130320804
-GameObject:
+--- !u!1001 &4210729797157818216
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2130320805}
-  - component: {fileID: 2130320807}
-  - component: {fileID: 2130320806}
-  m_Layer: 5
-  m_Name: PropertyPrice
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2130320805
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2130320804}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2136167698}
-  m_Father: {fileID: 9059150}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -135, y: -35}
-  m_SizeDelta: {x: 250, y: 75}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2130320806
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2130320804}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &2130320807
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2130320804}
-  m_CullTransparentMesh: 1
---- !u!1 &2136167697
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2136167698}
-  - component: {fileID: 2136167700}
-  - component: {fileID: 2136167699}
-  m_Layer: 5
-  m_Name: Price
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2136167698
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2136167697}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2130320805}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2136167699
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2136167697}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: 'Price: 999$'
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &2136167700
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2136167697}
-  m_CullTransparentMesh: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4210729796116990922, guid: 6c713fe9fb6cb9c43961abd3bf9be43b, type: 3}
+      propertyPath: m_Name
+      value: GameController
+      objectReference: {fileID: 0}
+    - target: {fileID: 4210729796116990924, guid: 6c713fe9fb6cb9c43961abd3bf9be43b, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4210729796116990924, guid: 6c713fe9fb6cb9c43961abd3bf9be43b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.5276904
+      objectReference: {fileID: 0}
+    - target: {fileID: 4210729796116990924, guid: 6c713fe9fb6cb9c43961abd3bf9be43b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -12.372276
+      objectReference: {fileID: 0}
+    - target: {fileID: 4210729796116990924, guid: 6c713fe9fb6cb9c43961abd3bf9be43b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.9070821
+      objectReference: {fileID: 0}
+    - target: {fileID: 4210729796116990924, guid: 6c713fe9fb6cb9c43961abd3bf9be43b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4210729796116990924, guid: 6c713fe9fb6cb9c43961abd3bf9be43b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4210729796116990924, guid: 6c713fe9fb6cb9c43961abd3bf9be43b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4210729796116990924, guid: 6c713fe9fb6cb9c43961abd3bf9be43b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4210729796116990924, guid: 6c713fe9fb6cb9c43961abd3bf9be43b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4210729796116990924, guid: 6c713fe9fb6cb9c43961abd3bf9be43b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4210729796116990924, guid: 6c713fe9fb6cb9c43961abd3bf9be43b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6c713fe9fb6cb9c43961abd3bf9be43b, type: 3}
